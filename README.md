@@ -1,32 +1,26 @@
-<!-- 
-	replaces:
-	%s/{project_name}//g
-	%s/{tagline}//g
-	%s/{copyright}/Copyright 🄯 2020 Dyne.org foundation, Amsterdam/g
--->
 <p align="center">
   <a href="https://www.dyne.org">
-    <img alt="{project_name}" src="https://via.placeholder.com/150.png?text=LOGO" width="150" />
+    <img alt="agl" src="https://via.placeholder.com/150.png?text=LOGO" width="150" />
   </a>
 </p>
 
 <h1 align="center">
-  {project_name}</br>
-  <sub>{tagline}</sub>
+  agl</br>
+  <sub>Python utilities for Adobe Glyph List</sub>
 </h1>
 
 <p align="center">
-  <a href="https://travis-ci.com/puria/{project_name}">
-    <img src="https://travis-ci.com/puria/{project_name}.svg?branch=master" alt="Build Status">
+  <a href="https://travis-ci.com/puria/agl">
+    <img src="https://travis-ci.com/puria/agl.svg?branch=master" alt="Build Status">
   </a>
-  <a href="https://codecov.io/gh/puria/{project_name}">
-    <img src="https://codecov.io/gh/puria/{project_name}/branch/master/graph/badge.svg" alt="coverage"/>
+  <a href="https://codecov.io/gh/puria/agl">
+    <img src="https://codecov.io/gh/puria/agl/branch/master/graph/badge.svg" alt="coverage"/>
   </a>
   <a href="https://dyne.org">
     <img src="https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%9D%A4%20by-Dyne.org-blue.svg" alt="Dyne.org">
   </a>
-  <a href="https://pypi.org/project/{project_name}/">
-    <img alt="PyPI" src="https://img.shields.io/pypi/v/{project_name}.svg" alt="Latest release">
+  <a href="https://pypi.org/project/agl/">
+    <img alt="PyPI" src="https://img.shields.io/pypi/v/agl.svg" alt="Latest release">
   </a>
 </p>
 
@@ -78,19 +72,19 @@ Abstract description like: 🚧 Zenroom is a software in **ALPHA stage** and are
 
 ***
 ## 💾 Install
-```pip install / yard add {project_name}```
+```pip install / yard add agl```
 
 ***
 ## 🎮 Quick start
 
-To start using {project_name} just (fill with real documentation)
+To start using agl just (fill with real documentation)
 
 ***
 ## 🐋 Docker
 
 ```bash
-docker build -t {project_name} .
-docker run --rm -it {project_name}
+docker build -t agl .
+docker run --rm -it agl
 ```
 
 ***
@@ -109,7 +103,7 @@ docker run --rm -it {project_name}
 ***
 ## 😍 Acknowledgements
 
-{copyright}
+Copyright 🄯 2020 Puria Nafisi Azizi, Italy
 
 Designed, written and maintained by Puria Nafisi Azizi.
 
@@ -141,8 +135,8 @@ https://dyne.org/
 
 ***
 ## 💼 License
-    {project_name} - {tagline}
-    {copyright}
+    agl - Python utilities for Adobe Glyph List
+    Copyright 🄯 2020 Puria Nafisi Azizi, Italy
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

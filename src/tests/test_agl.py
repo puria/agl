@@ -1,5 +1,3 @@
-import string
-
 import pytest
 from agl.agl import AGL
 
@@ -120,7 +118,7 @@ info_to_test = [
 
 @pytest.mark.parametrize('char, ucp, usv, agl', info_to_test)
 def test_info_glyph(char, ucp, usv, agl):
-    info = a.info_by_char(char)
+    info = a.lookup(char)
     assert info.get('unicode_code_point') == ucp
     assert info.get('unicode_standard_value') == usv
     assert info.get('agl_glyph_names') == agl

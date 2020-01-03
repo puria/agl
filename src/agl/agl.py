@@ -1,3 +1,4 @@
+import unicodedata
 from pathlib import Path
 from functools import lru_cache
 
@@ -35,15 +36,15 @@ class AGL:
     def char_to_glyph_names(self, char: str):
         return self.__glyph_name(self.char_to_ucp(char))
 
-    @staticmethod
-    def usv_to_ucp(usv: str):
-        return int(usv, 16)
-
-    def usv_to_char(self, usv: str):
-        return chr(self.usv_to_ucp(usv))
-
-    def usv_to_glyph_name(self, usv: str):
-        return self.__glyph_name(self.usv_to_ucp(usv))
+    # @staticmethod
+    # def usv_to_ucp(usv: str):
+    #     return int(usv, 16)
+    #
+    # def usv_to_char(self, usv: str):
+    #     return chr(self.usv_to_ucp(usv))
+    #
+    # def usv_to_glyph_name(self, usv: str):
+    #     return self.__glyph_name(self.usv_to_ucp(usv))
 
     @staticmethod
     def ucp_to_str(ucp: int):
@@ -53,10 +54,11 @@ class AGL:
         return self.glyph_names().get(self.ucp_to_str(ucp))
 
     @lru_cache(maxsize=0)
-    def info_by_char(self, char: str):
+    def lookup(self, char: str):
         return dict(
             char=char,
             unicode_code_point=self.char_to_ucp(char),
             unicode_standard_value=self.char_to_usv(char),
             agl_glyph_names=self.char_to_glyph_names(char),
+            unicode_character_name=unicodedata.name(char, None)
         )

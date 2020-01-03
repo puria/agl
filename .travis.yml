@@ -1,6 +1,6 @@
 language: python
 dist: bionic
-before_script: cd src
+before_install: cd src
 python:
     - "3.5"
     - "3.6"

@@ -16,7 +16,7 @@
   </a>
 </p>
 
-<div align="center"><sub> Python utilities for [AGLFN](https://github.com/adobe-type-tools/agl-aglfn) (Adobe Glyph List For New Fonts)</sub></div>
+<div align="center"><sub> Python utilities for (AGLFN)[https://github.com/adobe-type-tools/agl-aglfn] (Adobe Glyph List For New Fonts)</sub></div>
 
 <br><br>
 

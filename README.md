@@ -42,7 +42,16 @@
 </h4>
 
 
-Access [AGLFN](https://github.com/adobe-type-tools/agl-aglfn) names easily in Python.
+**aglfn** is a small utility to access [AGLFN](https://github.com/adobe-type-tools/agl-aglfn) names easily in Python.
+Many software tools for new typefaces often referes to glyphs with this names.
+Some typography tools tend to hardcode the aglfn.txt file and parse it, so this
+is an attempt to have the submodule of the AGLFN repository without inglobe
+those files each time in our repos.
+
+AGFLN is a subset of the AGL list intended to provide a baselist of glyphs for a
+new Latin font. More detailed information could be found on the 
+[repo](https://github.com/adobe-type-tools/agl-aglfn) and on the 
+[AGL specification](https://github.com/adobe-type-tools/agl-specification).
 
 
 

@@ -5,8 +5,8 @@
 <h1 align="center">aglfn</h1>
 
 <p align="center">
-  <a href="https://travis-ci.com/puria/aglfn">
-    <img src="https://travis-ci.com/puria/aglfn.svg?branch=master" alt="Build Status">
+  <a href="https://travis-ci.org/puria/aglfn">
+    <img src="https://travis-ci.org/puria/aglfn.svg?branch=master" alt="Build Status">
   </a>
   <a href="https://codecov.io/gh/puria/aglfn">
     <img src="https://codecov.io/gh/puria/aglfn/branch/master/graph/badge.svg" alt="Code coverage"/>

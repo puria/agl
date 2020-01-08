@@ -41,6 +41,7 @@
   <a href="#-license">💼 License</a>
 </h4>
 
+<br><br>
 
 **aglfn** is a small utility to access [AGLFN](https://github.com/adobe-type-tools/agl-aglfn) names easily in Python.
 Many software tools for new typefaces often referes to glyphs with this names.
@@ -53,7 +54,7 @@ new Latin font. More detailed information could be found on the
 [repo](https://github.com/adobe-type-tools/agl-aglfn) and on the 
 [AGL specification](https://github.com/adobe-type-tools/agl-specification).
 
-
+<br><br>
 
 <details>
  <summary><strong>🚩 Table of Contents</strong> (click to expand)</summary>

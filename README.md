@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/puria/aglfn/master/assets/noun_dictionary_2407204.svg" width="100" height="100">
+  <img src="https://raw.githubusercontent.com/puria/aglfn/master/assets/noun_dictionary_2407204.svg?sanitize=true" width="100" height="100">
 </p>
 
 <h1 align="center">aglfn</h1>

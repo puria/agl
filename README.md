@@ -1,49 +1,40 @@
 <p align="center">
-  <a href="https://www.dyne.org">
-    <img alt="agl" src="https://via.placeholder.com/150.png?text=LOGO" width="150" />
-  </a>
+  <div style='background-size: 100%; height: 200px; width: 200px; background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgeD0iMHB4IiB5PSIwcHgiPjxnPjxwYXRoIGQ9Ik0xNC44MTYsNEEzLDMsMCwwLDAsMTIsMkgxMEEzLDMsMCwwLDAsNyw1VjU3YTUuMDA2LDUuMDA2LDAsMCwwLDUsNUg1N1YzNmg0VjI4SDU3VjI2aDRWMThINTdWMTZoNFY4SDU3VjRaTTksNWExLDEsMCwwLDEsMS0xaDJhMSwxLDAsMCwxLDEsMVY0NEg5Wk0yMiw2MFY1NGg0djZabTMzLThINDZ2Mmg5djJIMjhWNTRoOVY1MkgxNXYyaDV2MkgxNGExLDEsMCwwLDEtMS0xVjUxYTEsMSwwLDAsMSwxLTFINTVabTAsOEgyOFY1OEg1NVptMC0xMkgxNGEzLDMsMCwwLDAtMywzdjRhMywzLDAsMCwwLDMsM2g2djJIMTJhMywzLDAsMCwxLTMtM1Y0Nkg1NVptNC0xOHY0SDU3VjMwWm0wLTEwdjRINTdWMjBaTTU1LDQ0SDE1VjZINTVabTQtMzR2NEg1N1YxMFoiPjwvcGF0aD48cmVjdCB4PSIzOSIgeT0iNTIiIHdpZHRoPSIyIiBoZWlnaHQ9IjIiPjwvcmVjdD48cGF0aCBkPSJNMTcsMzZINTNWMTRIMTdabTItMjBINTFWMzRIMTlaIj48L3BhdGg+PHBhdGggZD0iTTI1LjIxOSwxOCwyMi4wMywzMC43NThsMS45NC40ODRMMjUuMjgxLDI2aDUuNDM4bDEuMzExLDUuMjQyLDEuOTQtLjQ4NEwzMC43ODEsMThabS41NjIsNiwxLTRoMi40MzhsMSw0WiI+PC9wYXRoPjxwYXRoIGQ9Ik00NSwyMUgzN3YyaDZ2MkgzN3Y2SDQ3VjI5SDQ1Wm0tMiw4SDM5VjI3aDRaIj48L3BhdGg+PHBvbHlnb24gcG9pbnRzPSIxOSAxMCAyMyAxMCAyMyA4IDE3IDggMTcgMTIgMTkgMTIgMTkgMTAiPjwvcG9seWdvbj48cmVjdCB4PSI1MSIgeT0iOCIgd2lkdGg9IjIiIGhlaWdodD0iMiI+PC9yZWN0PjwvZz48L3N2Zz4=");'></div>
 </p>
 
-<h1 align="center">
-  agl</br>
-  <sub>Python utilities for Adobe Glyph List</sub>
-</h1>
+<h1 align="center">aglfn</h1>
 
 <p align="center">
-  <a href="https://travis-ci.com/puria/agl">
-    <img src="https://travis-ci.com/puria/agl.svg?branch=master" alt="Build Status">
+  <a href="https://travis-ci.com/puria/aglfn">
+    <img src="https://travis-ci.com/puria/aglfn.svg?branch=master" alt="Build Status">
   </a>
-  <a href="https://codecov.io/gh/puria/agl">
-    <img src="https://codecov.io/gh/puria/agl/branch/master/graph/badge.svg" alt="coverage"/>
+  <a href="https://codecov.io/gh/puria/aglfn">
+    <img src="https://codecov.io/gh/puria/aglfn/branch/master/graph/badge.svg" alt="Code coverage"/>
   </a>
-  <a href="https://dyne.org">
-    <img src="https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%9D%A4%20by-Dyne.org-blue.svg" alt="Dyne.org">
-  </a>
-  <a href="https://pypi.org/project/agl/">
-    <img alt="PyPI" src="https://img.shields.io/pypi/v/agl.svg" alt="Latest release">
+  <a href="https://pypi.org/project/aglfn/">
+    <img alt="PyPI release" src="https://img.shields.io/pypi/v/aglfn.svg" alt="Latest release">
   </a>
 </p>
 
+<div align="center"><sub>Python utilities for AGLFN (Adobe Glyph List For New Fonts) </sub></div>
+
 <br><br>
+
+<div align="center">
+  <pre>pip install <a href="http://pypi.org/project/aglfn">aglfn</a></pre>
+</div>
+
+<br><br>
+
 
 <h4 align="center">
   <a href="#-install">💾 Install</a>
   <span> • </span>
   <a href="#-quick-start">🎮 Quick start</a>
   <span> • </span>
-  <a href="#-docker">🐋 Docker</a>
-  <span> • </span>
-  <a href="#-api">🐝 API</a>
-  <span> • </span>
-  <a href="#-configuration">🔧 Configuration</a>
-  <span> • </span>
   <a href="#-testing">📋 Testing</a>
   <span> • </span>
-  <a href="#-troubleshooting--debugging">🐛 Troubleshooting & debugging</a>
-  <span> • </span>
   <a href="#-acknowledgements">😍 Acknowledgements</a>
-  <span> • </span>
-  <a href="#-links">🌐 Links</a>
   <span> • </span>
   <a href="#-contributing">👤 Contributing</a>
   <span> • </span>
@@ -51,7 +42,8 @@
 </h4>
 
 
-Abstract description like: 🚧 Zenroom is a software in **ALPHA stage** and are part of the [DECODE project](https://decodeproject.eu) about data-ownership and [technological sovereignty](https://www.youtube.com/watch?v=RvBRbwBm_nQ). Our effort is that of improving people's awareness of how their data is processed by algorithms, as well facilitate the work of developers to create along [privacy by design principles](https://decodeproject.eu/publications/privacy-design-strategies-decode-architecture) using algorithms that can be deployed in any situation without any change.
+Access [AGLFN](https://github.com/adobe-type-tools/agl-aglfn) names easily in Python.
+
 
 
 <details>
@@ -59,46 +51,71 @@ Abstract description like: 🚧 Zenroom is a software in **ALPHA stage** and are
 
 * [Install](#-install)
 * [Quick start](#-quick-start)
-* [Docker](#-docker)
-* [API](#-api)
-* [Configuration](#-configuration)
 * [Testing](#-testing)
-* [Troubleshooting & debugging](#-troubleshooting--debugging)
 * [Acknowledgements](#-acknowledgements)
-* [Links](#-links)
 * [Contributing](#-contributing)
 * [License](#-license)
 </details>
 
 ***
 ## 💾 Install
-```pip install / yard add agl```
+```pip install aglfn```
+
+or if you want to install it locally for development clone this repo and then
+
+```bash
+cd aglfn
+pip install -e .
+```
 
 ***
 ## 🎮 Quick start
 
-To start using agl just (fill with real documentation)
+### `names`
+get the list of all the AGLFN names
 
-***
-## 🐋 Docker
+```python
+import aglfn
 
-```bash
-docker build -t agl .
-docker run --rm -it agl
+print(aglfn.names)
 ```
 
-***
-## 🐝 API
+### `glyphs`
+get the list of all glyphs with a corresponding AGLFN name
+```python
+import aglfn
 
-***
-## 🔧 Configuration
+print(aglfn.glyphs)
+```
+
+### `name()`
+get the corresponding AGLFN name by passing a glyph
+```python
+import aglfn
+
+name = aglfn.name('€')
+assert 'Euro' == name
+```
+
+### `to_glyph()`
+get the corresponding glyph by passing an AGLFN name
+```python
+import aglfn
+
+glyph = aglfn.to_glyph('Euro')
+assert '€' == glyph
+```
 
 ***
 
 ## 📋 Testing
 
-***
-## 🐛 Troubleshooting & debugging
+Test are executed with travis, in case you want to run them locally just:
+
+```bash
+cd aglfn
+python setup.py test
+```
 
 ***
 ## 😍 Acknowledgements
@@ -107,19 +124,7 @@ Copyright 🄯 2020 Puria Nafisi Azizi, Italy
 
 Designed, written and maintained by Puria Nafisi Azizi.
 
-Special thanks to Mr. W. White for his special contributions.
-
-<img src="https://zenroom.dyne.org/img/ec_logo.png" width="150" alt="Project funded by the European Commission">
-
-This project is receiving funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement nr. 732546 (DECODE).
-
-
-***
-## 🌐 Links
-
-https://www.somelink.io/
-
-https://dyne.org/
+Logo, dictionary by Smalllike from the Noun Project.
 
 
 ***
@@ -135,7 +140,7 @@ https://dyne.org/
 
 ***
 ## 💼 License
-    agl - Python utilities for Adobe Glyph List
+    aglfn - Python utilities for Adobe Glyph List For New Fonts
     Copyright 🄯 2020 Puria Nafisi Azizi, Italy
 
     Licensed under the Apache License, Version 2.0 (the "License");

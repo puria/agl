@@ -1,5 +1,5 @@
 import pytest
-from agl.agl import AGL
+from aglfn import AGL
 
 a = AGL()
 
@@ -1600,3 +1600,5 @@ values_to_test = [
 @pytest.mark.parametrize('value, expected', values_to_test)
 def test_glyph_name(value, expected):
     assert expected in a.char_to_glyph_names(value)
+
+
